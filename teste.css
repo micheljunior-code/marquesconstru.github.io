@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    border: none;
+
+}
+
+
+
+
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    position: fixed;
+    transition: all .35s ease;
+    background-color: white;
+    padding: 14px 14%;
+}
+
+.logo{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.cabeçalho-link{
+    display: flex;
+    gap: 3rem;
+   
+}
+
+.cabeçalho-link a{
+        color: #111111;
+        font-weight: 700;
+        transition: 0.3s;
+    }
+
+    .cabeçalho-link a:hover{
+        color: blue;
+    }
+
+    .Meio{
+        padding: 7rem 0 0 8.5rem;
+        line-height: 4rem;
+
+    }
+
+    .Meio h1{
+        font-size: 4rem;
+
+    }
+    .Meio button{
+        background-color: rgb(247, 165, 181);
+        padding:  ;
+        border-radius: 5px;
+        color: #ffffff;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: 0.3s;
+
+    }
+
+    .Meio button:hover{
+        background-color: #111111;
+        transform: scaleY(1.2)
+    }
+    .section{
+        padding-top: 7rem;
+
+    }
+    section h1{
+        align-items: center;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .container-card-1{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        padding-top: 2rem;
+        
+    }
+
+    .cards img{
+        width: 180px;
+        height: 160px;
+        transition: 0.35s ease;
+
+    }
+    .cards img:hover{
+        transform: scale(0.9) translateY(5px);
+        cursor: pointer;
+    }
+
+    .container-card-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem;
+        background: whitesmoke;
+    }
+     .container-novidades{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+        align-items: center;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .container-novidades img:hover{
+        transform: scale(0.9)translateY(5px);
+        cursor: pointer;
+        transition: 0.3s;
+    }
+        .novidades{
+            background-color: rgb(245, 217, 217);
+            color: black;
+
+        }
+
+        .contato{
+            display: flex;
+            gap: 5rem;
+            justify-content: space-around;
+            background-color: black;
+            padding: 8rem;
+            margin-top: 5rem;
+            display: grid;
+            grid-template-columns:repeat(auto-fit, minmax(200px , auto));
+        }
+        .meio-contato h3{
+            color: rgb(175, 5, 5);
+            font-size: 23px;
+            margin-bottom: 1.6rem;
+        }
+        .meio-contato h5{
+            font-size: 15px;
+            font-weight: 600;
+            color: blanchedalmond;
+        }
+
+        .last-text{
+            text-align: center;
+            background-color: rgb(12, 0, 0);
+            color: rgb(255, 248, 248);
+        }
+
+        .segundo button{
+            background-color: rgb(243, 140, 43);
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 1px;
+            color: #ffffff;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.3s;
+            margin-left: 600px;
+            
+    
+        }
+    
+        .segundo button:hover{
+            background-color: #bd5424;
+            transform: scaleY(1.2)
+        }
+
+
+        .texto-motiva{
+            padding: 7rem 0 0 8.5rem;
+            
+        }
+        .text{
+            align-items: center;
+        font-family: Arial;
+        font-size: 1rem;
+        
+        
+        }
+
+        .text-titulo{
+        padding-left: 6rem;
+        font-size: 2rem;
+        margin-top: 30px;
+        
+        }
+
+        .sobre{
+            margin-left: 6rem;
+        }
+        
+            
+        
+
+        .mapbox{
+            margin-top: 3px;
+            padding: 0;
+            box-sizing: border-box;
+            position: relative;
+            width: 300px;
+            height: 200px;
+            background: #ffffff;
+        }
+
+
+    
+        
+
+
+
